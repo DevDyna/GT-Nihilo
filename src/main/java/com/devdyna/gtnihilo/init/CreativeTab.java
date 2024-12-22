@@ -22,7 +22,7 @@ public class CreativeTab {
             .register("vein_tab", () -> CreativeModeTab.builder()
                     .title(Component.translatable(Main.MODID + ".tab"))
                     .withTabsBefore(CreativeModeTabs.COMBAT)
-                    .icon(() -> ItemVein.icon.get().getDefaultInstance())
+                    .icon(() -> ItemVein.sapphire_vein.get().getDefaultInstance())
                     .displayItems((parameters, output) -> {
                         output.accept(ItemVein.bauxite_vein_end.get());
                         output.accept(ItemVein.magnetite_vein_end.get());
