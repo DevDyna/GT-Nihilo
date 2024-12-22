@@ -59,8 +59,6 @@ public class ItemVein {
     public static final DeferredItem<Item> sapphire_vein = regItem("sapphire_vein");
     // -------------------------------------------------------------------------------//
 
-    public static final DeferredItem<Item> icon = regItem("icon");
-
     public static DeferredItem<Item> regItem(String name) {
         return ITEMS.registerSimpleItem(name, new Item.Properties());
     }
