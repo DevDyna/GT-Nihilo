@@ -15,7 +15,7 @@
       {
         "content": {
           "ingredient": {
-            "item": "minecraft:cobble"
+            "item": "minecraft:diorite"
           },
           "count": 1
         },
@@ -29,7 +29,7 @@
       {
         "content": {
           "ingredient": {
-            "items": "gtnihilo:apatite_vein",
+            "items": "gtnihilo:garnet_vein",
             "components": {
               "minecraft:max_stack_size": 64,
               "minecraft:attribute_modifiers": {
@@ -53,7 +53,7 @@
       {
         "content": {
           "ingredient": {
-            "items": "gtnihilo:cassiterite_vein",
+            "items": "gtnihilo:iron_vein",
             "components": {
               "minecraft:max_stack_size": 64,
               "minecraft:attribute_modifiers": {
@@ -77,7 +77,7 @@
       {
         "content": {
           "ingredient": {
-            "items": "gtnihilo:coal_vein",
+            "items": "gtnihilo:lubricant_vein",
             "components": {
               "minecraft:max_stack_size": 64,
               "minecraft:attribute_modifiers": {
@@ -101,7 +101,7 @@
       {
         "content": {
           "ingredient": {
-            "items": "gtnihilo:copper_tin_vein",
+            "items": "gtnihilo:magnetite_vein_ow",
             "components": {
               "minecraft:max_stack_size": 64,
               "minecraft:attribute_modifiers": {
@@ -125,7 +125,7 @@
       {
         "content": {
           "ingredient": {
-            "items": "gtnihilo:galena_vein",
+            "items": "gtnihilo:mineral_sand_vein",
             "components": {
               "minecraft:max_stack_size": 64,
               "minecraft:attribute_modifiers": {
@@ -149,7 +149,7 @@
       {
         "content": {
           "ingredient": {
-            "items": "gtnihilo:garnet_tin_vein",
+            "items": "gtnihilo:nickel_vein",
             "components": {
               "minecraft:max_stack_size": 64,
               "minecraft:attribute_modifiers": {
