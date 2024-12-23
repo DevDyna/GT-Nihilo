@@ -12,7 +12,7 @@
   "tickInputs": {
     "eu": [
       {
-        "content": 16,
+        "content": 7,
         "chance": 10000,
         "max_chance": 10000
       }
