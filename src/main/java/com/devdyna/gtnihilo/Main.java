@@ -2,10 +2,12 @@ package com.devdyna.gtnihilo;
 
 import com.devdyna.gtnihilo.init.CreativeTab;
 import com.devdyna.gtnihilo.init.ItemVein;
+import com.devdyna.gtnihilo.other.ColorTinting;
 
-import net.neoforged.bus.api.IEventBus;
-import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.common.Mod;
+import net.minecraftforge.common.MinecraftForge;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 
 @Mod(Main.MODID)
 public class Main
@@ -13,10 +15,14 @@ public class Main
 
     public static final String MODID = "gtnihilo";
 
-    public Main(IEventBus modEventBus, ModContainer modContainer)
+    @SuppressWarnings("removal")
+    public Main()
     {
+        IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
         ItemVein.register(modEventBus);
         CreativeTab.register(modEventBus);
+        MinecraftForge.EVENT_BUS.register(new ColorTinting());
     }
 
 }
