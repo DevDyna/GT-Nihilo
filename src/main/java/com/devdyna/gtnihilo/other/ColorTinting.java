@@ -22,7 +22,7 @@ public class ColorTinting {
     }
 
     public void regTintItem(RegisterColorHandlersEvent.Item e, int color, Item i) {
-        e.register((a, b) -> color, i);
+        e.register((item, tintindex) -> item.getItem()==i ? color: null, i);
     }
 
 }
