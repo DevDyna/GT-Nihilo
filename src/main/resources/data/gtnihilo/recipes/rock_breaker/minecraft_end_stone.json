@@ -1,6 +1,7 @@
 {
   "type": "gtceu:rock_breaker",
   "duration": 16,
+  "groupColor": -1,
   "data": {
     "fluidA": "minecraft:lava",
     "fluidB": "minecraft:water"

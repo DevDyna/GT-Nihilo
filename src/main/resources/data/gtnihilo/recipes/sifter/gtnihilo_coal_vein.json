@@ -1,6 +1,7 @@
 {
   "type": "gtceu:sifter",
   "duration": 100,
+  "groupColor": -1,
   "inputs": {
     "item": [
       {
